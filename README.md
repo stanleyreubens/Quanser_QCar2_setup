@@ -1,6 +1,7 @@
 # Quanser Setup and Test Instructions
 
 ## Step 1 – Organize Library Files
+**Use WinSCP to login to the QCar with the IpAddress. Make sure you ping it first on the host machine to ensure it's reachable:**
 **On the right machine:**
 - Go to `Documents/quanser/`
 - Delete everything except the `libraries` folder.
