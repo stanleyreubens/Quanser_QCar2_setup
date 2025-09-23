@@ -2,37 +2,38 @@
 
 ## Step 1 – Organize Library Files
 **Use WinSCP to login to the QCar with the IpAddress. Make sure you ping it first on the host machine to ensure it's reachable:**
-**On the right machine:**
+
+**On the right machine (QCar via IP address):**
 - Go to `Documents/quanser/`
 - Delete everything except the `libraries` folder.
 - Inside `libraries/python`, delete all files.
 
-**On the left machine:**
+**On the left machine (Host machine):**
 - Navigate to `Documents/quanser/0_libraries/python`
 - Copy everything inside the `python` folder to the right machine’s `Documents/quanser/libraries/python` folder.
 
 ---
 
 ## Step 2 – Transfer Resource Files
-**On the right machine:**
+**On the right machine (QCar):**
 - Go to `Documents/quanser/libraries/resources`
 - Delete all files inside.
 
-**On the left machine:**
+**On the left machine (Host):**
 - Navigate to `Documents/quanser/libraries/resources`
 - Copy all contents to the right machine’s `Documents/quanser/libraries/resources` folder.
 
 ---
 
 ## Step 3 – Transfer Research Hardware Files
-**On the left machine:**
+**On the left machine (Host):**
 - Navigate to `Documents/quanser/1_research/sdcs/qcar2/hardware`
 - Copy the folders `application` and `hardware_test` into the right machine’s `Documents/quanser/` directory.
 
 ---
 
 ## Step 4 – Transfer Teaching Skill Activities
-**On the left machine:**
+**On the left machine (Host):**
 - Navigate to `Documents/quanser/6_teaching/4_Autonomous_Systems/SDCS/skill_activities`
 - Copy the entire `skill_activities` folder into the right machine’s `Documents/quanser/` directory.
 
@@ -110,7 +111,7 @@ python QCar2_hardware_test_csi_cameras_probe.py
    ```bash
    Documents/quanser/skill_activities/04_vehicle_control
    ```
-   on the right machine.
+   on the right machine (QCar).
 
 **On PuTTY:**
 Navigate to:
