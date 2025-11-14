@@ -6,7 +6,8 @@ Before starting, ensure your **QCar is powered on** and you can **ping it from t
 
 ## Step 1 – Initial Setup
 1. **Connect to QCar with WinSCP** using its IP address.  
-   - First, verify you can ping the QCar from the host machine.  
+   - First, verify you can ping the QCar from the host machine.
+   - Make sure Xlaunch is running on your host PC
 
 2. **Configure PuTTY for X11 Forwarding** on the host machine:  
    - Open PuTTY → expand **Connection → SSH → X11**.  
